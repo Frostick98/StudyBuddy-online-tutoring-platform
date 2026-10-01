@@ -1,0 +1,17 @@
+# Тимчасові файли ОС та редактора
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Тимчасові файли Office (відкритий документ Word)
+~$*
+
+# Технологічний стек C# / ASP.NET Core (ІІ семестр)
+bin/
+obj/
+*.user
+
+# Локальні секрети й налаштування середовища
+.env
+appsettings.Development.json

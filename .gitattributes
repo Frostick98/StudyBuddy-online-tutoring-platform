@@ -1,0 +1,12 @@
+# Нормалізація кінців рядків для текстових файлів
+* text=auto
+
+# Shell-скрипти завжди з LF
+*.sh text eol=lf
+
+# Бінарні файли: Git не показує їх посимвольний diff
+*.docx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
