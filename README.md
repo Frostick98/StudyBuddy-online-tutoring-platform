@@ -50,6 +50,15 @@ cat docs/technical-specification.md
 
 Повний набір вимог і ТЗ також доступний у [вікі проєкту](https://app.notion.com/p/StudyBuddy-40ac4d1b2ae18074be37f112bf901b4a?source=copy_link).
 
+## Діаграми та прототип інтерфейсу
+
+Наскрізний сценарій: пошук репетитора - бронювання слота - онлайн-оплата - підтвердження (UC-03, UC-05, UC-06; FR-004, FR-006, FR-008).
+
+- [Діаграма діяльності](docs/diagrams/activity.png) (доріжки, розгалуження, fork/join)
+- [Діаграма послідовності оплати](docs/diagrams/sequence.png) (з фреймом alt/else)
+- [Каркаси екранів](docs/diagrams/wireframes/overview.png) (4 екрани, чорно-білі)
+- [Інтерактивний прототип у Figma](ВСТАВТЕ-ПОСИЛАННЯ-НА-FIGMA)
+
 ## Структура проєкту
 
 | Каталог / файл | Що містить |
@@ -58,6 +67,7 @@ cat docs/technical-specification.md
 | docs/sdlc/ | вибір моделі SDLC, фази життєвого циклу, дорожня карта, DORA-рефлексія |
 | docs/board/ | дошка задач, Sprint Plan, Definition of Done |
 | docs/adr/ | журнал архітектурних рішень (ADR) |
+| docs/diagrams/ | діаграми діяльності та послідовності, каркаси екранів |
 | docs/reports/ | звіти практичних занять у форматі docx |
 | src/ | вихідний код (наповниться в наступному семестрі) |
 | tests/ | автотести |
